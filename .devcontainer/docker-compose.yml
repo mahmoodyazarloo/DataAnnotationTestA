@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  app:
+    image: python:3.9-slim-buster
+    volumes:
+      - .:/workspace
+    ports:
+      - "8000:8000"

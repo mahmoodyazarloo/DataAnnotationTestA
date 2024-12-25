@@ -1,0 +1,7 @@
+{
+  "image": "python:3.9-slim-buster",
+  "dockerComposeFile": "docker-compose.yml",
+  "extensions": [
+    "ms-python.python"
+  ]
+}
